@@ -9,20 +9,25 @@ body{
     font-family: Helvetica, sans-serif;
 }
 nav{
-    height: 80px;
+    height: 120px;
     background-color: #1c1345;
     width: 100%;
 }
 img .logo{
     line-height: 80px;
     padding: 0 100px;
+    
 }
 nav ul{
+    font-family: Arial,sans-serif;
     float: right;
-    margin-right: 20px;
+    margin-right: 500px;
+    font-size: 24px;
+    padding: 2px 18px 0px;
 }
 nav ul li{
     display: inline-block;
-    line-height: 80px;
+    line-height: 100px;
     margin: 0 5px;
+    padding: 5px 18px 0px ;
 }
