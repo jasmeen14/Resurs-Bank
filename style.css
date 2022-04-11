@@ -10,8 +10,8 @@ body{
 }
 nav{
     height: 120px;
-    background-color: #1c1345;
     width: 100%;
+    
 }
 img .logo{
     line-height: 80px;
@@ -21,13 +21,17 @@ img .logo{
 nav ul{
     font-family: Arial,sans-serif;
     float: right;
-    margin-right: 500px;
+    margin-right: 200px;
     font-size: 24px;
     padding: 2px 18px 0px;
+    
 }
 nav ul li{
     display: inline-block;
     line-height: 100px;
-    margin: 0 5px;
-    padding: 5px 18px 0px ;
+    margin: 10 5px;
+    padding: 5px 28px 0px ;
+}
+nav ul li a{
+    color: black;
 }
