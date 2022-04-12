@@ -108,3 +108,12 @@ a .active,a:hover{
     left: unset !important;
     transform: unset !important;
 }
+#year-length, #value{
+    background-color: transparent;
+    border: none;
+    color: #ffa500;
+    font-weight: bolder;
+}
+.w-100{
+    margin: 10px 0 0 0;
+}
