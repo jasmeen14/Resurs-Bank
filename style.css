@@ -89,6 +89,14 @@ a .active,a:hover{
     }
 }
 /* sliders*/
+section{
+    box-sizing: border-box;
+}
+.container{
+    margin: 40px 30px 30px 10px;
+    padding: 40px;
+    background-color: #211551;
+}
 .head{
     color: #ffa500;
     font-size: 24px;
@@ -116,4 +124,23 @@ a .active,a:hover{
 }
 .w-100{
     margin: 10px 0 0 0;
+}
+.slider{
+    max-width: 700px;
+    width: 100%;
+}
+.slider::-webkit-slider-thumb{
+    margin: 15px 10 0 0;
+    width: 24px;
+    border: none;
+    background-color: #ffa500;
+    box-shadow: rgb(0 0 0 /50%) 0px 4px 4px;
+    border-radius: 50%;
+}
+.slider::-moz-range-thumb{
+    margin: 15px 10 0 0;
+    width: 24px;
+    border: none;
+    background-color: #ffa500;
+    box-shadow: rgb(0 0 0 /50%) 0px 4px 4px;
 }
