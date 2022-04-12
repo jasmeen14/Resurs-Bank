@@ -88,3 +88,23 @@ a .active,a:hover{
         left: 0;
     }
 }
+/* sliders*/
+.head{
+    color: #ffa500;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    padding: 0 0 0 100px;
+}
+.head-b{
+    color: #1c1345;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
+}
+.value{
+    font-size: 16px;
+    color: #ffff;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: unset !important;
+    transform: unset !important;
+}
