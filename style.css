@@ -92,16 +92,32 @@ a .active,a:hover{
 section{
     box-sizing: border-box;
 }
+section{
+    background: url(images/SupremeCard-Swing.jpg) no-repeat;
+    background-size: cover;
+    height: calc(80vh-80px);
+}
 .container{
+    height: 500px;
     margin: 40px 30px 30px 10px;
     padding: 40px;
-    background-color: #211551;
 }
+.container-sm{
+ background-color: #211551;
+ height: 100px;
+ width: 800px;
+}
+.inputlength{
+    background-color: #211551;   
+}
+   
 .head{
     color: #ffa500;
     font-size: 24px;
     font-family: Helvetica, sans-serif;
     padding: 0 0 0 100px;
+    background-color: #211551;
+
 }
 .head-b{
     color: #1c1345;
@@ -115,6 +131,7 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     left: unset !important;
     transform: unset !important;
+    padding: 160px;
 }
 #year-length, #value{
     background-color: transparent;
