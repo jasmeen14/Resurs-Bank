@@ -26,7 +26,7 @@ function calc() {
 
 
     if (amount > 0 & year > 0);
-    document.getElementById("monthlycost").value = Math.round(((((belopp)*(0.0665))*år)+(belopp))/(år*12)+19); 
+    document.getElementById("monthlycost").value = Math.round(((((amount)*(0.0665))*year)+(amount))/(year*12)+19); 
 }
 
 document.getElementById('slider-amount').onchange = function () {
@@ -40,9 +40,6 @@ document.getElementById('slider-year').onchange = function () {
 };
 
 
-
-
-
 slider.value = function () {
     inputbox.value = this.value;
 
@@ -51,11 +48,6 @@ slider.value = function () {
 
 
 
-slider1.value = function () {
-    inputbox.value = this.value;
-
-    calc();
-}
 
 
 
