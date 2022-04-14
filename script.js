@@ -34,7 +34,7 @@ document.getElementById('slider-amount').onchange = function () {
     calc();
 };
 
-document.getElementById('slider-år').onchange = function () {
+document.getElementById('slider-year').onchange = function () {
     console.log("Hej11");
     calc();
 };
@@ -43,7 +43,7 @@ document.getElementById('slider-år').onchange = function () {
 
 
 
-slider.värde = function () {
+slider.value = function () {
     inputbox.value = this.value;
 
     calc();
@@ -51,7 +51,7 @@ slider.värde = function () {
 
 
 
-slider1.värde = function () {
+slider1.value = function () {
     inputbox.value = this.value;
 
     calc();
