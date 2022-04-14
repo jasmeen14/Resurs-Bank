@@ -111,7 +111,7 @@ section{
     background-color: #211551;   
 }
    
-.head{
+#head{
     color: #ffa500;
     font-size: bolder;
     font-family: Helvetica, sans-serif;
@@ -138,6 +138,7 @@ section{
     border: none;
     color: #ffa500;
     font-weight: bolder;
+    text-align: center;
 }
 .w-100{
     margin: 10px 0 0 0;
